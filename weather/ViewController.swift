@@ -179,7 +179,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate ,UIGestureRecog
 
         var annotationView = CustomAnnotationView(annotation: annotation, reuseIdentifier: "customAnnotation")
         annotationView.canShowCallout = true
-        self.logger.trace("testtest")
+        self.logger.trace("aaaaaaaaaaaaaaaaatesttest")
         return annotationView
     }
 
@@ -195,7 +195,7 @@ class CustomAnnotationView: MKAnnotationView {
 
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError("aaaaaaaaaaaaaaaainit(coder:) has not been implemented")
     }
 }
 
