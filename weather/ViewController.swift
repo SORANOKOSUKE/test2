@@ -179,7 +179,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate ,UIGestureRecog
 
         var annotationView = CustomAnnotationView(annotation: annotation, reuseIdentifier: "customAnnotation")
         annotationView.canShowCallout = true
-        self.logger.trace("aaaaaaaaaaaaaaaaatesttest")
+        self.logger.trace("nikaime")
         return annotationView
     }
 
